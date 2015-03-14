@@ -15,7 +15,6 @@ def leibniz(iterations = 1000)
       plus = true
     end
     den = den + 2
-    yield den if block_given?
   end
 
   pi*4
